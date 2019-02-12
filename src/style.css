@@ -1,0 +1,37 @@
+body {
+  font-family: Lato;
+  font-size:12px;
+}
+
+.calculator {
+  border: solid 1px #ccc;
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: Lato;
+}
+
+.display {
+  display: block;
+  text-align: right;
+  padding: 2px 5px;
+}
+
+.display-operation {
+  line-height: 20px;
+  height: 20px;
+  font-size: 14px;
+}
+.display-result {
+  line-height: 30px;
+  font-size: 26px;
+}
